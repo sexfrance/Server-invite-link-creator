@@ -22,7 +22,7 @@ async def list_servers():
     print(Fore.LIGHTBLUE_EX + "Available servers:" + Style.RESET_ALL)
     for i, guild in enumerate(guilds):
         print(f"{i + 1}. {guild.name} ({guild.id}) - {guild.member_count} members")
-    server_index = int(colored_input(Fore.LIGHTBLUE_EX, "Enter the server number for which you want to create an invite link:")) - 1
+    server_index = int(colored_input(Fore.LIGHTBLUE_EX, "Enter the server number for which you want to create an invite link: ")) - 1
     if 0 <= server_index < len(guilds):
         server = guilds[server_index]
         channel = server.text_channels[0]  # Get the first text channel of the server
