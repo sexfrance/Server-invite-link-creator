@@ -5,7 +5,7 @@
     Python Script that will create an invite link in any server the chosen bot is in.
     <br />
     <br />
-    <a href="https://discord.gg/bestnitro">💬 Discord</a>
+    <a href="https://discord.cyberious.xyz">💬 Discord</a>
     ·
     <a href="#-changelog">📜 ChangeLog</a>
     ·
